@@ -157,7 +157,7 @@
 
 }
 
-.div1__h2 {
+.div1__h1 {
     position: absolute;
     width: 696px;
     height: 120px;
@@ -177,23 +177,24 @@
     color: #FFFFFF;
 }
 
-.div1__btn {
+.btn {
+    background: #2196F3;
+    color: #FFFFFF;
+
     position: absolute;
+
     width: 200px;
     height: 50px;
+    top: 350px;
     left: 700px;
-    top: 430px;
 
-    border: 2px solid #2196F3;
-    background-color: #2196F3;
-    color: #FFFFFF;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 
+}
+
+.btn1 {
     font-weight: bold;
-
 }
 
 /* div3 */
@@ -207,7 +208,7 @@
     
     font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
@@ -226,8 +227,8 @@
     
     font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 15px;
     line-height: 24px;
     
     letter-spacing: 0.03em;
@@ -431,13 +432,12 @@
 
 .igor {
     position: absolute;
-    width: 270px;
+    width: 230px;
     height: 368px;
     left: 215px;
     top: 200px;
 
     background: #FFFFFF;
-    /* material shadow v1 */
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -453,7 +453,7 @@
     background: url(.jpg);
     border-radius: 0px;
 }
-.h4__igor {
+.h3__igor {
     position: absolute;
     width: 151px;
     height: 19px;
@@ -472,12 +472,12 @@
     color: #212121;
 }
 
-.h5__igor {
+.p__igor {
     position: absolute;
     width: 130px;
     height: 19px;
     left: 60px;
-    top: 280px;
+    top: 290px;
     
     font-family: Roboto;
     font-style: normal;
@@ -495,14 +495,13 @@
 
 .olga {
     position: absolute;
-    width: 270px;
+    width: 230px;
     height: 368px;
     left: 515px;
     top: 200px;
     
     background: #FFFFFF;
-    /* material shadow v1 */
-    
+  
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
@@ -518,49 +517,51 @@
     border-radius: 0px;
 }
 
-.h4__olga {
+.h3__olga {
     position: absolute;
     width: 109px;
     height: 19px;
-    left: 596px;
-    top: 460px;
+    left: 60px;
+    top: 260px;
     
     font-family: Roboto;
     font-style: normal;
-    font-weight: bold
+    font-weight: bold;
     font-size: 16px;
     line-height: 19px;
-
+  
     text-align: center;
     letter-spacing: 0.03em;
     
     color: #212121;
+    
 }
 
-.h5__olga {
+.p__olga {
     position: absolute;
     width: 147px;
     height: 19px;
-    left: 577px;
-    top: 480px;
+    left: 60px;
+    top: 290px;
     
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-    
+   
     text-align: center;
     letter-spacing: 0.03em;
-
-    color: #757575
+    
+    color: #757575;
+    
     
 }
 
 /* nikita */
 .nikita {
     position: absolute;
-    width: 270px;
+    width: 230px;
     height: 368px;
     left: 815px;
     top: 200px;
@@ -582,7 +583,7 @@
     border-radius: 0px;
 }
 
-.h4__nikita {
+.h3__nikita {
     position: absolute;
     width: 137px;
     height: 19px;
@@ -591,29 +592,29 @@
     
     font-family: Roboto;
     font-style: normal;
-    font-weight: bold
+    font-weight: bold;
     font-size: 16px;
     line-height: 19px;
-
+      
     text-align: center;
     letter-spacing: 0.03em;
     
     color: #212121;
 }
 
-.h5__nikita {
+.p__nikita {
     position: absolute;
     width: 76px;
     height: 19px;
     left: 60px;
-    top: 280px;
+    top: 290px;
     
     font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 16px;
     line-height: 19px;
-    
+   
     text-align: center;
     letter-spacing: 0.03em;
     
@@ -625,16 +626,16 @@
 
 .mihail {
     position: absolute;
-    width: 270px;
+    width: 230px;
     height: 368px;
     left: 1115px;
     top: 200px;
     
     background: #FFFFFF;
-    /* material shadow v1 */
     
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px
+    border-radius: 0px 0px 4px 4px;
+    
 }
 
 .img__mihail {
@@ -648,7 +649,7 @@
     border-radius: 0px;
 }
 
-.h4__mihail {
+.h3__mihail {
     position: absolute;
     width: 134px;
     height: 19px;
@@ -657,10 +658,10 @@
     
     font-family: Roboto;
     font-style: normal;
-    font-weight: bold
+    font-weight: bold;
     font-size: 16px;
     line-height: 19px;
-
+ 
     text-align: center;
     letter-spacing: 0.03em;
     
@@ -668,7 +669,7 @@
     
 }
 
-.h5__mihail {
+.p__mihail {
     position: absolute;
     width: 87px;
     height: 19px;
@@ -688,9 +689,10 @@
     
 }
 
-/* div5 */
+/* footer */
 
-.div5 {
+.footer {
+
     position: absolute;
     width: 1600px;
     height: 252px;
@@ -700,55 +702,51 @@
     background: #2F303A;
 }
 
+.WebStudio {
+    text-decoration: none;
 
-.web2 {
     position: absolute;
     width: 145px;
     height: 31px;
     left: 215px;
     top: 60px;
-    
+
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 31px;
-    
+
     letter-spacing: 0.03em;
-    
-    
+
 }
 
-.div5__span1 {
+.web__2 {
     color: #2196F3;
 }
 
-.div5__span2 {
+.Studio__2 {
     color: #FFFFFF;
 }
 
-.a4 {
+
+.address {
+    color: #FFFFFF;
+
     position: absolute;
-    width: 231px;
-    height: 21px;
+    width: 216px;
+    height: 24px;
     left: 215px;
     top: 111px;
-    
+
     font-family: Roboto;
     font-style: normal;
-    font-weight: normal;
     font-size: 14px;
+    font-weight: normal;
     line-height: 24px;
-    
-    letter-spacing: 0.03em;
-    
-    color: #FFFFFF;
-
-    text-decoration: none;
-    
 }
 
-.mail__2 {
+.p__footer1 {
     position: absolute;
     width: 231px;
     height: 21px;
@@ -760,20 +758,23 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    
+
     letter-spacing: 0.03em;
     
     color: rgba(255, 255, 255, 0.6);
-
-    text-decoration: none;
+    
 }
 
-.tel__2 {position: absolute;
+
+.p__footer2 {
+    color: rgba(255, 255, 255, 0.6);
+
+    position: absolute;
     width: 231px;
     height: 21px;
     left: 215px;
     top: 171px;
-    
+
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -781,18 +782,7 @@
     line-height: 24px;
 
     letter-spacing: 0.03em;
-    
-    color: rgba(255, 255, 255, 0.6);
-
-    text-decoration: none;
 }
-
-
-
-
-
-
-
 
 
 
